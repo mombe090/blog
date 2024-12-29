@@ -1,3 +1,15 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://mombe090.github.io/blog/'
+languageCode = 'fr-fr'
+title = 'Un Dev perdu dans le monde des Ops'
+theme = "hugo-blog-awesome"
+
+
+[params]
+    goToTop = true
+    [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com"
+
+    [[params.socialIcons]]
+    name = "Rss"
+    url = "index.xml"
