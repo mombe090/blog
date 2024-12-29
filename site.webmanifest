@@ -1,0 +1,20 @@
+{
+    "name": "Un Dev perdu dans le monde des Ops",
+    "short_name": "Un Dev perdu dans le monde des Ops",
+    "start_url": "https://mombe090.github.io/blog/",
+    "theme_color": "#434648",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/blog/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/blog/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
