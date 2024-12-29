@@ -1,13 +1,28 @@
-# 📚 Apprendre à utiliser kind
+# 📚 Une solide alternative à lens Headlamp pour manager vos clusters Kubernetes sur votre machine.
 
-## Kind : Kubernetes In Docker (mettre kubernetes dans un conteneur Docker)
+## Contexte : 
+Depuis l'avènement du [dashboard Kubernetes](https://github.com/kubernetes/dashboard), plusieurs outils ont vu le jour pour faciliter la gestion vos clusters Kubernetes sur votre pc.
+Jusque-là, lens était le plus avancé, mais il est passé de l'autre côté de la force 
 
-Kind est un outil qui permet de créer des clusters Kubernetes dans des conteneurs Docker.
+Lens est acquis par la société [Mirantis](https://www.mirantis.com) qui a décidé de fermer les sources et de le rendre payant **(ça rappel docker également acquis par la même société)**.
+[La version 6.0.0](https://forums.k8slens.dev/t/lens-6-release-and-vision-for-the-future/106) de Lens a été publiée le 28 juillet, 2022 et a été la dernière version complètement gratuite avec toutes les fonctionnalités.
 
-C'est un outil conçu à la base pour tester kubernetes lui-même, mais aujourd'hui, il est utilisé pour créer des clusters locaux pour développer et tester des applications, mais aussi dans des pipelines CI/CD.
-Kind est un outil open source, il est donc disponible gratuitement.
+Mirantis propose une version **personnelle** gratuite de Lens, mais avec quelques limitations, voir le [pricing model](   https://k8slens.dev/pricing)
 
-### Prérequis :
+### Alternatives à Lens :
+- Il existe un [fork](https://github.com/MuhammedKalkan/OpenLens) de lens, par **[Muhammed Kalkan](https://github.com/MuhammedKalkan)** qui s'appel *openlens* qui est open source et gratuit. <br />
+    Le problème est que le fork est à l'arrêt à cause de la fermeture des sources de Lens comme expliqué dans le readme, donc sujet à des bugs et vulnérabilités. <br >
+    La dernière version est la v6.5.2-366 en date du 30 juin 2023 (il faut trouver une solution alternative). <br />
+    Il reste encore fonctionnel avec quelques menus disparus comme le menu des logs et d'exec dans un pod.<br />
+    Pour rajouter ces menus, il suffit d'installer l'extension **@alebcay/openlens-node-pod-menu** et redemarrer Lens. <br />
+- [k9s](https://k9scli.io/) est un outil open source, la courbe d'apprentissage est plus élevé, mais il est très puissant et très complet.
+- 
+    
+
+
+
+mais ne sera plus maintenu, .
+
 
 Vous aurez besoin d'un environnement Docker ou Docker compatible pour utiliser Kind :
 
